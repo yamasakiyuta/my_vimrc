@@ -1,4 +1,3 @@
-" setting
 "文字コードをUFT-8に設定
 set fenc=utf-8
 " バックアップファイルを作らない
@@ -69,3 +68,6 @@ set mouse=a
 " クリップボード有効化
 set clipboard&
 set clipboard^=unnamedplus
+" Undo履歴をファイルに保存する
+set undodir=$HOME/.vim/undodir
+set undofile
